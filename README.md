@@ -44,3 +44,40 @@
 <img src="https://imgur.com/sYyDdVT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+**As a normal user, attempt the following steps:**
+
+5.) On Client-1, open the Run dialog (Start → Run). Navigate to the shared folder path: \\dc-1.
+
+<p>
+<img src="https://imgur.com/7WQPmSh.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  
+6.) Attempt to access each of the folders you just created:
+
+- read-access
+- write-access
+- no-access
+  **Test the following:**
+
+- *Can you open and view the contents of the folders?*
+- *Can you create or modify files within the folders?*
+- *Which folders can you access?*
+- *Which folders allow you to create files?*
+- *Does the observed behavior align with the permissions set earlier?*
+
+<p>
+<img src="https://imgur.com/XSzUEaX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://imgur.com/e6uUZTk.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://imgur.com/Yz0ZnC2.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>

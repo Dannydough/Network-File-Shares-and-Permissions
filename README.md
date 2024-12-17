@@ -81,3 +81,71 @@
 <img src="https://imgur.com/Yz0ZnC2.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+**Steps to Create the "ACCOUNTANTS" Security Group, Assign Permissions, and Test Access:**
+
+Log in to DC-1:
+
+- Use your domain admin account (mydomain.com\jane_admin).
+- Open Active Directory Users and Computers:
+
+- Press Start → Search for Active Directory Users and Computers → Open it.
+- Navigate to the Appropriate OU:
+
+- Expand your domain (e.g., mydomain.com).
+- Navigate to the Organizational Unit (OU) where you want to create the group.
+- If needed, create a new OU by right-clicking the domain → New → Organizational Unit.
+- Create the "ACCOUNTANTS" Security Group:
+
+- Right-click on the target OU → Select New → Group.
+- In the New Object - Group dialog:
+- Group Name: Enter ACCOUNTANTS.
+- Group Scope: Select Global (default scope for most use cases).
+- Group Type: Select Security.
+- Click OK or Apply to create the group.
+- Verify the Group Creation:
+
+- Confirm that the "ACCOUNTANTS" group appears in the OU.
+- Right-click the group → Select Properties to review settings.
+
+<p>
+<img src="https://imgur.com/DC4yLVA.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+**Steps to Set Permissions on the "Accounting" Folder:**
+
+7.) Navigate to the Folder:
+
+- On DC-1, go to C:\accounting.
+- Share the Folder:
+
+- Right-click → Properties → Sharing → Advanced Sharing.
+- Check "Share this folder" → Permissions → Add ACCOUNTANTS group → Set to Read/Write.
+- Set Security Permissions (Optional):
+
+- Go to the Security tab → Edit → Add ACCOUNTANTS → Grant Read/Write access.
+- Test Access:
+<p>
+<img src="https://imgur.com/1JJdE4d.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+  
+<p>
+<img src="https://imgur.com/XRicxre.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- From Client-1, log in as an "ACCOUNTANTS" group user and confirm access.
+- Verify users not in the group are denied access.
+
+<p>
+<img src="https://imgur.com/5JkbFi5.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+**Steps to Add <someuser> to the "ACCOUNTANTS" Group:**
+8.) Log out of <someuser> on Client-1.
+- On DC-1, open Active Directory Users and Computers.
+- Right-click the "ACCOUNTANTS" group → Properties → Members tab → Add <someuser>.
+- Click OK and confirm membership.

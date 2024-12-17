@@ -12,7 +12,7 @@
 2.) Log in to Client-1 as a standard user (mydomain<someuser>).
 
 <p>
-<img src="https://imgur.com/undefined.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/nGoSv9r.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 

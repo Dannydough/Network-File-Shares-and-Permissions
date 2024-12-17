@@ -31,16 +31,16 @@
 - (Leave the "accounting" folder for now.)
 
 <p>
-<img src="https://imgur.com/DjRpUiu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/t9ILiUN.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <p>
-<img src="https://imgur.com/DjRpUiu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/dq3eR72.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <p>
-<img src="https://imgur.com/DjRpUiu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/sYyDdVT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>

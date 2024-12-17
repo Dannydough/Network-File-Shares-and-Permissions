@@ -145,7 +145,27 @@ Log in to DC-1:
 <p>
 
 **Steps to Add <someuser> to the "ACCOUNTANTS" Group:**
+
 8.) Log out of <someuser> on Client-1.
 - On DC-1, open Active Directory Users and Computers.
 - Right-click the "ACCOUNTANTS" group → Properties → Members tab → Add <someuser>.
 - Click OK and confirm membership.
+
+<p>
+<img src="https://imgur.com/U4TnvSB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+**Steps to Test Access:**
+
+9.) Sign in to Client-1 as <someuser>.
+- Navigate to the shared folder: \\DC-1\accounting.
+- Check if you can:
+- Access the folder.
+- Create, edit, or delete files.
+- Confirm if access now works as expected after adding <someuser> to the "ACCOUNTANTS" group.
+
+<p>
+<img src="https://imgur.com/CURNt4G.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
